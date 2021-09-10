@@ -101,3 +101,9 @@ dist
 
 # IDE
 .idea
+
+# Build folder
+build/
+
+# Firebase caches
+.firebase/

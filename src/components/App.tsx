@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import firebase from "../firebase";
 
 export const App: React.FC = () => {
     const [date, setDate] = useState(new Date());
