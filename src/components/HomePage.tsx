@@ -124,8 +124,14 @@ export const HomePage: React.FC = () => {
                                                 <strong className="font-medium">
                                                     ЗАПОЛНИТЬ ЗАЯВКУ
                                                 </strong>{' '}
-                                                НА САЙТЕ <a href="obawards.ru">OBAWARDS.RU</a>,
-                                                СОБЛЮДАЯ ВСЕ УСЛОВИЯ УЧАСТИЯ
+                                                НА САЙТЕ{' '}
+                                                <a
+                                                    href="https://obawards.ru"
+                                                    className="text-accent hover:underline"
+                                                >
+                                                    OBAWARDS.RU
+                                                </a>
+                                                , СОБЛЮДАЯ ВСЕ УСЛОВИЯ УЧАСТИЯ
                                             </span>
                                         </li>
                                         <li>
@@ -175,10 +181,114 @@ export const HomePage: React.FC = () => {
                             </div>
                         </div>
                     </section>
+
+                    <section className="px-20 pb-40 pt-20 bg-white">
+                        <h2 className="text-3xl font-medium mb-2">ЖЮРИ</h2>
+                        <hr className="border-black border-2 mb-12" />
+                        <div className="grid grid-cols-1 lg:grid-cols-3 mb-24">
+                            <span className="col-span-2 col-start-2">
+                                В ЖЮРИ КОНКУРСА OPEN BRANDING AWARDS ЛИДЕРЫ ОТРАСЛЕЙ ДИЗАЙНА, МЕДИЯ,
+                                МАРКЕТИНГА, БИЗНЕСА
+                            </span>
+                        </div>
+                        <div className="grid grid-cols-1 gap-y-9 gap-x-4 lg:grid-cols-2 xl:grid-cols-3 justify-center">
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-gray text-5xl leading-tight">
+                                    АЛЕКСЕЙ
+                                </span>
+                                <span className="p-1 bg-black text-gray mb-4 text-5xl leading-tight">
+                                    МИЛЛЕР
+                                </span>
+                                <span>ПРЕДСЕДАТЕЛЬ ПРАВЛЕНИЯ ПАО “ГАЗПРОМ”</span>
+                            </div>
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-accent text-5xl leading-tight">
+                                    ДМИТРИЙ
+                                </span>
+                                <span className="p-1 bg-black text-accent mb-4 text-5xl leading-tight">
+                                    АЗАРОВ
+                                </span>
+                                <span>ГУБЕРНАТОР САМАРСКОЙ ОБЛАСТИ</span>
+                            </div>
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-white text-5xl leading-tight">
+                                    ОЛЕГ
+                                </span>
+                                <span className="p-1 bg-black text-white mb-4 text-5xl leading-tight">
+                                    БЕЛОЗЁРОВ
+                                </span>
+                                <span>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР – ПРЕДСЕДАТЕЛЬ ПРАВЛЕНИЯ ОАО “РЖД”</span>
+                            </div>
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-white text-5xl leading-tight">
+                                    СЕРГЕЙ
+                                </span>
+                                <span className="p-1 bg-black text-white mb-4 text-5xl leading-tight">
+                                    ПИСКАРЕВ
+                                </span>
+                                <span>ПРЕЗИДЕНТ АКАР</span>
+                            </div>
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-gray text-5xl leading-tight">
+                                    ЕЛЕНА
+                                </span>
+                                <span className="p-1 bg-black text-gray mb-4 text-5xl leading-tight">
+                                    МАРТЫНОВА
+                                </span>
+                                <span>
+                                    ДИРЕКТОР ПО СТРАТЕГИЧЕСКИМ КОММУНИКАЦИЯМ И ПРОДВИЖЕНИЮ БРЕНДА
+                                    ПАО “МЕГАФОН”
+                                </span>
+                            </div>
+                            <div className="col-span-1 flex flex-col items-start">
+                                <span className="p-1 bg-black text-accent text-5xl leading-tight">
+                                    ДМИТРИЙ
+                                </span>
+                                <span className="p-1 bg-black text-accent mb-4 text-5xl leading-tight">
+                                    АЗАРОВ
+                                </span>
+                                <span>ГУБЕРНАТОР САМАРСКОЙ ОБЛАСТИ</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section className="px-20 pb-32 pt-20 bg-white">
+                        <h2 className="text-3xl font-medium mb-2">КОНТАКТЫ</h2>
+                        <hr className="border-black border-2 mb-12" />
+                        <div className="grid grid-cols-1 lg:grid-cols-3 mb-24">
+                            <div className="col-span-2 col-start-2 flex flex-col text-sm">
+                                <span className="mb-2">МОСКВА, КРЕМЛЬ,Д.1</span>
+                                <span className="mb-2">+7 499 233-32-22</span>
+                                <span className="mb-6">INFO@OBAWARDS.COM</span>
+                                <span className="flex gap-x-12 mb-12">
+                                    <span>TW</span>
+                                    <span>FB</span>
+                                    <span>VK</span>
+                                    <span>INST</span>
+                                </span>
+                                <div className="bg-gray w-full" style={{ height: 350 }}>
+                                    Map
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </main>
                 <aside className="flex-shrink-0 w-20 bg-white"></aside>
             </div>
-            <footer></footer>
+            <footer className="bg-black px-20 py-12 flex justify-between">
+                <div className="text-lg text-white">ОРГАНИЗАТОРЫ</div>
+                <div className="flex flex-col text-sm text-white">
+                    <span className="flex gap-x-12 mb-7">
+                        <span>TW</span>
+                        <span>FB</span>
+                        <span>VK</span>
+                        <span>INST</span>
+                    </span>
+                    <span className="mb-2">МОСКВА, КРЕМЛЬ,Д.1</span>
+                    <span className="mb-2">+7 499 233-32-22</span>
+                    <span>INFO@OBAWARDS.COM</span>
+                </div>
+            </footer>
         </div>
     );
 };
