@@ -117,8 +117,8 @@ export const HomePage: React.FC = () => {
                                 </p>
                                 <h3 className="text-xl font-medium">УСЛОВИЯ УЧАСТИЯ</h3>
                                 <p className="mb-14">
-                                    <span>ДЛЯ УЧАСТИЯ В КОНКУРСЕ НЕОБХОДИМО:</span>
-                                    <ul>
+                                    <span className="mb-2">ДЛЯ УЧАСТИЯ В КОНКУРСЕ НЕОБХОДИМО:</span>
+                                    <ul className="list-dashed pl-4">
                                         <li>
                                             <span>
                                                 <strong className="font-medium">
