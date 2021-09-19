@@ -280,11 +280,9 @@ export const HomePage: React.FC = () => {
                     <ToggleLangButton />
                 </aside>
             </div>
-            <footer className="bg-black px-8 sm:px-12 md:px-16 lg:px-20 py-12 grid grid-cols-1 md:grid-cols-2">
-                <div className="col-span-1 lg:col-span-2 text-md md:text-lg text-white">
-                    {t('sponsors')}
-                </div>
-                <div className="col-span-1 lg:col-span-2  flex flex-col text-sm text-white">
+            <footer className="bg-black px-8 sm:px-12 md:px-16 lg:px-20 py-12 flex flex-col md:flex-row justify-between">
+                <div className="text-md md:text-lg text-white">{t('sponsors')}</div>
+                <div className="flex flex-col text-sm text-white">
                     <span className="flex mb-7">
                         <span>TW</span>
                         <span className="ml-6 md:ml-12">FB</span>
