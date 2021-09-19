@@ -31,6 +31,9 @@ module.exports = {
                     DEFAULT: '#B3976E',
                 },
             },
+            flex: {
+                '1-100': '1 1 100%',
+            },
         },
     },
     variants: {

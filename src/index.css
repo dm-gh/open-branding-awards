@@ -12,3 +12,11 @@
         content: "–";
     }
 }
+
+strong {
+    @apply font-medium;
+}
+
+a {
+    @apply text-accent hover:underline;
+}
